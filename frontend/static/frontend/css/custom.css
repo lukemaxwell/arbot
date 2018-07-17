@@ -1,0 +1,14 @@
+/* Custom Styles
+ */
+
+.home-content {
+  background-color: #111111;
+}
+
+.home-content h1 {
+  color: #1BB453;
+}
+
+.slick-slide img {
+  display: inline-block;
+}
