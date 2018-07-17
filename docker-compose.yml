@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  splash:
+    container_name: arbot_splash
+    #build: .
+    image: scrapinghub/splash
+    ports:
+      - "8050:8050"
+  db:
+    image: postgres
+    container_name: arbot_postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: bleepbloop
+  adminer:
+    image: adminer
+    container_name: arbot_adminer
+    restart: always
+    ports:
+      - 8080:8080

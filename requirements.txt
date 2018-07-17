@@ -1,0 +1,13 @@
+autopager
+babel
+dateparser
+django
+maybedont
+pandas
+pycountry
+requests[security]
+scrapely
+scipy
+sklearn
+yarl
+xgboost
